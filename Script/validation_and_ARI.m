@@ -2,7 +2,7 @@
 clear
 clc
 
-load('validation_dataset.mat')
+load('discovery_dataset.mat')
 %% ARI test
 
 Y = zscore(regional_nd_md_data_2');
